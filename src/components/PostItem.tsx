@@ -9,11 +9,13 @@ interface PostItemProps {
 }
 
 const PostItem: React.FC<PostItemProps> = ({ number, post, remove }) => {
+  console.log(number);
+  
   return (
     <div className="post">
       <div>
         <strong>
-          {number}. {post.title}
+          {post.id}. {post.title}
         </strong>
         <div>{post.body}</div>
       </div>
