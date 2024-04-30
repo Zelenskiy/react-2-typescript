@@ -64,3 +64,10 @@
 .navbar__items {
   margin-left: auto;
 }
+
+.error {
+  color: red;
+  font-size: 6rem;
+  font-weight: 800;
+
+}
